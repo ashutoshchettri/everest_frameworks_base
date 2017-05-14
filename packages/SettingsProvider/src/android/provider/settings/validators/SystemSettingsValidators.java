@@ -37,6 +37,7 @@ import android.provider.Settings.System;
 import android.util.ArrayMap;
 import android.text.TextUtils;
 
+import android.graphics.Color;
 import java.util.Map;
 
 /**
@@ -327,5 +328,10 @@ public class SystemSettingsValidators {
         VALIDATORS.put(System.ENABLE_FLOATING_ROTATION_BUTTON, BOOLEAN_VALIDATOR);
         VALIDATORS.put(System.STATUS_BAR_BATTERY_STYLE, new InclusiveIntegerRangeValidator(0, 25));
         VALIDATORS.put(System.QS_PANEL_STYLE, NON_NEGATIVE_INTEGER_VALIDATOR);
+        VALIDATORS.put(System.STATUS_BAR_LOGO, BOOLEAN_VALIDATOR);
+        VALIDATORS.put(System.STATUS_BAR_LOGO_POSITION, ANY_INTEGER_VALIDATOR);
+        VALIDATORS.put(System.STATUS_BAR_LOGO_STYLE, ANY_INTEGER_VALIDATOR);
+        VALIDATORS.put(System.STATUS_BAR_LOGO_COLOR, ANY_INTEGER_VALIDATOR);
+        VALIDATORS.put(System.STATUS_BAR_LOGO_COLOR_PICKER, ANY_INTEGER_VALIDATOR);
     }
 }
