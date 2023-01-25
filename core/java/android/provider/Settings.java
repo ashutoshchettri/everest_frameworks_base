@@ -6766,6 +6766,13 @@ public final class Settings {
         public static final String DOZE_TRIGGER_DOUBLETAP = "doze_trigger_doubletap";
 
         /**
+         * Give haptic feedback on qs brightness slider changes.
+         * @hide
+         */
+        @Readable
+        public static final String QS_BRIGHTNESS_SLIDER_HAPTIC_FEEDBACK = "qs_brightness_slider_haptic_feedback";
+
+        /**
          * Whether to control brightness from status bar
          * 0 = 0ff, 1 = on
          * @hide
