@@ -13268,6 +13268,12 @@ public final class Settings {
                 = "pocket_mode_enabled";
 
         /**
+         * Brightness slider styles
+         * @hide
+         */
+        public static final String BRIGHTNESS_SLIDER_STYLE = "brightness_slider_style";
+
+        /**
          * These entries are considered common between the personal and the managed profile,
          * since the managed profile doesn't get to change them.
          */
