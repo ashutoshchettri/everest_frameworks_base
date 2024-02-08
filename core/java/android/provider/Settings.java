@@ -13013,6 +13013,13 @@ public final class Settings {
         public static final String NETWORK_TRAFFIC_HIDEARROW = "network_traffic_hidearrow";
 
         /**
+         * Control whether to spoof current status of storage encryption.
+         * @hide
+         */
+        @Readable
+        public static final String SPOOF_STORAGE_ENCRYPTION_STATUS = "spoof_storage_encryption_status";
+
+        /**
          * Whether to show the brightness slider in quick settings panel.
          * @hide
          */
